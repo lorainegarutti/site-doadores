@@ -1,0 +1,25 @@
+criar um ambiente online (servidor para disponibilizar online)
+abrir a pasta dos arquivos html e css
+abrir o terminal (ctrl + ')
+ls: lista de arquivos
+cd: troca diretório
+ctrl + c: parar o servidor
+clear: limpar a tela
+npm init -y (iniciar a aplicação (cria package.json))
+npm install express (criar servidores no node) cria node_modules
+criar e salvar pasta server.js
+-> anotar express, server, get, listen, 
+-> ambiente 127.0.0.1:3000
+node server.js para ligar o servidor e ver retorno
+npm install nodemon para automatizar
+package.json: "start": "nodemon server.js" monitoramento automatico
+npm start
+parar o servidor, clear e npm install nunjucks
+server.js: nunjucks, configure, return res.render(index
+npm start para unificar template engine
+configurar para arquivos estáticos: criação da pasta public, colocar logo, css e scripts.js
+-> se imagem der erro: colocar / no endereço do html
+começar o banco de dados: mudar itens dos doadores do html e configurar lista para rodar
+abrir o postbird, criar base de dados
+npm install pg
+configurar conexão com o banco de dados
